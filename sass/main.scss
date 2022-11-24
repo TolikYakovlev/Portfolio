@@ -1,0 +1,23 @@
+// Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+
+// Blocks
+@import "./blocks/logo";
+@import "./blocks/title";
+@import "./blocks/social";
+
+
+
+//sections
+@import "./sections/header";
+@import "./sections/skills";
+@import "./sections/portfolio";
+@import "./sections/footer";
+@import "./sections/contacts";
+
+// Owl Carousel
+@import "./owl-theme/owl-theme";
+
+

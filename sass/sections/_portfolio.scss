@@ -1,0 +1,137 @@
+.portfolio {
+    padding-top: 40px;
+    /* background-color: #F4F8F9; */
+
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 50px;
+
+    /* Tablet */
+    @media (max-width: 1139px) {
+        margin-bottom: 30px;
+    }
+}
+
+.portfolio__slider {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+
+    /* Tablet */
+    @media (max-width: 1139px) {
+        height: 400px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 767px) {
+        width: 300px;
+        height: 290px;
+        margin-left: 0;
+    }
+
+}
+
+.slider__img {
+    position: absolute;
+    z-index: -100;
+
+    & img {
+        height: 600px;
+
+    /* Mobile XS */
+    @media (max-width: 767px) {
+        width: 300px;
+        height: 290px;
+    }
+    }
+
+}
+
+.portfolio__slider-link {
+    margin-top: 20px;
+    margin-left: 45px;
+    z-index: 100;
+
+    padding: 19px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+    background: #FBDC4D;
+
+    &:hover,
+      :focus {
+        background: #FFEB8D;
+        
+      }
+
+    &:active {
+        background: #F5D22D;
+    }
+
+    /* Tablet */
+    @media (max-width: 1139px) {
+        margin-left: 30px;
+        padding: 14 25;
+        font-size: 16px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 767px) {
+        margin-top: 20px;
+        margin-left: 7px;
+        padding: 10 15;
+        font-size: 14px;
+    }
+
+}
+
+.portfolio__slider-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.3;
+
+    /* Tablet */
+    @media (max-width: 1139px) {
+        font-size: 26px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 767px) {
+        font-size: 20px;
+    }
+}
+
+.nav-btn {
+	position: absolute;
+	top: 50%;
+	width: 54px;
+	height: 54px;
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.owl-nav {
+position: absolute;
+    top: 50px;
+    right: 30px;
+    line-height: 0;
+
+    /* Mobile XS */
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+
+
+
+
+

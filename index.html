@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- encoding -->
+	<meta charset="UTF-8" />
+	<!-- Mobile support -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Title and SEO -->
+	<title>Яковлев Анатолий</title>
+	<meta name="description" content="HTML-верстка" />
+	<meta name="keywords" content="HTML, CSS, JS" />
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.carousel.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+	</style>
+
+	<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/img/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+	<header class="header" id="top">
+		<nav class="header__nav" data-aos="fade-down" data-aos-duration="1500">
+			<p>HTML Верстальщик</p>
+			<div class="header__nav-menu">
+				<a href="#skills">Навыки</a>
+				<a href="#portfolio">Портфолио</a>
+				<a href="#contacts">Контакты</a>
+
+			</div>
+			<div class="header__nav-social">
+				<div class="social">
+					<a href="https://t.me/Tolik_Yakovlev" target="_blank">
+						<img src="./img/Header/social/telegram.svg" alt="">
+					</a>
+					<a href="https://vk.com/id88062178" target="_blank">
+						<img src="./img/Header/social/vk.svg" alt="">
+					</a>
+					<a href="https://wa.me/79291593363" target="_blank">
+						<img src="./img/Header/social/whatsapp.svg" alt="">
+					</a>
+					<a href="https://github.com/TolikYakovlev"><img src="./img/Header/social/github.svg" alt=""></a>
+				</div>
+			</div>
+			<div class="nav-icon">
+				<div class="nav-icon__middle"></div>
+			</div>
+
+		</nav>
+		<div class="container">
+			<div class="header__presentation">
+				<div class="header__presentation-info" data-aos="fade-right" data-aos-delay="1000"
+					data-aos-duration="2000">
+					<h1 class="header__presentation-name">
+						Анатолий Яковлев
+					</h1>
+					<p>Всем привет! Меня зовут Анатолий и я занимаюсь версткой сайтов. Мои навыки Вы можете оценить,
+						посмотрев эту страницу </p>
+
+					<div class="header__presentation-link">
+						<a class="header__presentation-communication" href="#skills">Познакомиться</a>
+						<a class="header__presentation-contacts" href="#contacts">Контакты</a>
+					</div>
+				</div>
+				<div class="header__presentation-avatar" data-aos="fade-left" data-aos-delay="1000"
+					data-aos-duration="2000">
+					<img src="./img/Header/Avatar.jpg" alt="">
+
+					<p>Верстальщик сайтов, веб-разработчик. Оперативная верстка. Работаю с соблюдением сроков и
+						выполнением ТЗ. </p>
+				</div>
+			</div>
+			<div class="header__img">
+				<img src="./img/Header/Header.jpg" alt="">
+			</div>
+		</div>
+	</header>
+
+	<section class="skills" id="skills" data-aos="fade-up" data-aos-duration="1800">
+		<div class="container">
+			<div class="skills__title">
+				<h2 class="title">Мои навыки</h2>
+			</div>
+			<div class="skills__wrapper">
+				<div class="skills__icon">
+					<img src="./img/skills/html5.svg" alt="">
+					<img src="./img/skills/css3.svg" alt="">
+					<img src="./img/skills/javascript.svg" alt="">
+					<img src="./img/skills/sass.svg" alt="">
+					<img src="./img/skills/bootstrap.svg" alt="">
+					<img src="./img/skills/php.svg" alt="">
+					<img src="./img/skills/mysql.svg" alt="">
+					<img src="./img/skills/wordpress.svg" alt="">
+				</div>
+				<ul class="skills__list">
+					<li>HTML-верстка</li>
+					<li>CSS</li>
+					<li>Работа с библиотеками JavaScript</li>
+					<li>Валидный и семантический код</li>
+					<li>Работа с php</li>
+					<li>СУБД My SQL</li>
+					<li>Создание сайтов в WordPress</li>
+					<li>Использование препроцессоров SCSS</li>
+					<li>Верстка по сетке Bootstrap</li>
+					<li>Оптимизация скорости загрузки сайта под Google Page Speed и Lighthouse</li>
+				</ul>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="portfolio" id="portfolio" data-aos="fade-up" data-aos-duration="1800">
+		<div class="container">
+			<div class="portfolio-title">
+				<h2 class="title">Портфолио</h2>
+			</div>
+			<div class="slider-wrapper">
+				<div class="owl-carousel owl-theme" id="photo-carousel">
+					<div class="portfolio__slider">
+						<div class="slider__img">
+							<img src="./img/slider.jpg" alt="">
+						</div>
+						<a href="#" class="portfolio__slider-link">
+							<h2 class="portfolio__slider-title">Ссылка на проект</h2>
+							<p>Здесь будеть Ваш сайт</p>
+						</a>
+
+					</div>
+
+					<div class="portfolio__slider">
+						<div class="slider__img">
+							<img src="./img/slider.jpg" alt="">
+						</div>
+						<a href="#" class="portfolio__slider-link">
+							<h2 class="portfolio__slider-title">Ссылка на проект</h2>
+							<p>Здесь будеть Ваш сайт</p>
+						</a>
+					</div>
+
+					<div class="portfolio__slider">
+						<div class="slider__img">
+							<img src="./img/slider.jpg" alt="">
+						</div>
+						<a href="#" class="portfolio__slider-link">
+							<h2 class="portfolio__slider-title">Ссылка на проект</h2>
+							<p>Здесь будеть Ваш сайт</p>
+						</a>
+					</div>
+
+					<div class="portfolio__slider">
+						<div class="slider__img">
+							<img src="./img/slider.jpg" alt="">
+						</div>
+						<a href="#" class="portfolio__slider-link">
+							<h2 class="portfolio__slider-title">Ссылка на проект</h2>
+							<p>Здесь будеть Ваш сайт</p>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+	<section class="contacts" id="contacts" data-aos="fade-up" data-aos-duration="1800">
+		<div class="container">
+			<div class="contact-title">
+				<h2 class="title">Контакты</h2>
+			</div>
+			<div class="contact__data">
+				<ul class="contact__info">
+					<li>
+						<p>Email</p>
+						<a href="mailto:tolik22yakovlev@yandex.ru">tolik22yakovlev@yandex.ru</a>
+					</li>
+					<li>
+						<p>Телефон</p>
+						<a href="https://wa.me/79291593363" target="_blank">+7 (929) 159-33-63</a>
+					</li>
+				</ul>
+				<div class="contact__text">
+					<p>Если вы ищете специалиста по верстке сайтов или frontend разработчика в команду для работы над
+						проектом — напишите мне.
+					</p>
+				</div>
+			</div>
+			<div class="contact__social">
+				<div class="social">
+					<a href="https://t.me/Tolik_Yakovlev" target="_blank">
+						<img src="./img/Header/social/telegram.svg" alt="">
+					</a>
+					<a href="https://vk.com/id88062178" target="_blank">
+						<img src="./img/Header/social/vk.svg" alt="">
+					</a>
+					<a href="https://wa.me/79200000000" target="_blank">
+						<img src="./img/Header/social/whatsapp.svg" alt="">
+					</a>
+					<a href="https://github.com/TolikYakovlev"><img src="./img/Header/social/github.svg" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<img class="contact__icon-svg" src="./img/contacts-icon.svg.svg" alt="">
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<h3 class="footer__title">© 2022 — Анатолий Яковлев</h3>
+				<span>Веб-разработчик из Санкт-Петербурга, занимаюсь версткой и созданием сайтов.</span>
+			</div>
+		</div>
+	</footer>
+
+	<a href="#top" class="backtop-btn" id="backtop"><img src="./img/arrow-up.svg" alt=""></a>
+
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<script>
+		AOS.init(
+			{
+				disable: 'phone',
+				once: true,
+			}
+		);
+
+		AOS.init({
+			disable: function () {
+				var maxWidth = 899;
+				return window.innerWidth < maxWidth;
+			}
+		});			
+	</script>
+
+	<script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+
+	<script src="./libs/owlCarousel2/owl.carousel.min.js"></script>
+
+	<script src="./js/main.js"></script>
+
+</body>
+
+</html>
